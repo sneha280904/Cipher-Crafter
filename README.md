@@ -1,7 +1,49 @@
-# Secret_Code_Generator
-The **Secret Code Generator** is a Python program that encodes and decodes messages using a Caesar cipher. Users input a message and shift number to shift letters in the alphabet, while non-letter characters are ignored. It supports both encoding and decoding.
-The **Secret Code Generator** is a Python project designed to encode and decode messages using the Caesar cipher, a classic encryption technique. The program allows users to input a message and a shift number to shift the letters in the message by a specified amount. This creates an encoded message where each letter is replaced by another letter a certain number of positions forward in the alphabet. The cipher also supports decoding, allowing users to reverse the process and recover the original message by shifting letters back by the same number.
+---
 
-The program features a user-friendly menu that lets the user choose between encoding a message, decoding a message, or exiting the application. It handles both uppercase and lowercase letters while ignoring non-letter characters like spaces and punctuation, ensuring smooth text manipulation.
+# 🔐 Secret Code Generator
 
-Core functions are modular and reusable, with `encode_message()` handling the encoding process and `decode_message()` performing the decoding. The program also manages edge cases, such as wrapping around the alphabet (e.g., shifting 'Z' by 2 results in 'B') and handling invalid input. The project demonstrates practical use of Python functions, loops, string manipulation, and user input handling, making it a great exercise in fundamental programming concepts.
+A simple Python-based command-line tool to **encode** and **decode** secret messages using the Caesar cipher technique. Built to run in a Jupyter Notebook or terminal, this interactive tool allows users to safely hide or reveal messages by shifting alphabetic characters.
+
+## 🚀 Features
+- Encode messages with a customizable Caesar cipher shift
+- Decode messages using the same shift value
+- Handles both uppercase and lowercase letters
+- Ignores non-alphabet characters (spaces, punctuation, etc.)
+- Interactive menu system for easy use
+
+## 🧠 How It Works
+The Caesar cipher is a classic encryption technique where each letter in a message is shifted by a certain number of places in the alphabet. This tool applies the shift during encoding and reverses it during decoding.
+
+## 📝 Usage
+
+1. Clone the repository or open the notebook.
+2. Run the code in a Python environment or terminal.
+3. Follow the on-screen menu:
+   - Choose to encode, decode, or exit.
+   - Input your message and shift value.
+   - View your encrypted or decrypted result.
+
+## 🖥️ Example
+
+```
+Welcome to the Secret Code Generator!
+
+Please choose an option:
+1. Encode a message
+2. Decode a message
+3. Exit
+
+Enter your choice (1, 2, or 3): 1
+Enter the message to encode: hello world
+Enter the shift number: 3
+Encoded Message: khoor zruog
+```
+
+## 📂 Requirements
+- Python 3.6 or above
+- Jupyter Notebook (optional)
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
