@@ -1,5 +1,3 @@
----
-
 # Secret Code Generator
 
 A simple Python-based command-line tool to **encode** and **decode** secret messages using the Caesar cipher technique. Built to run in a Jupyter Notebook or terminal, this interactive tool allows users to safely hide or reveal messages by shifting alphabetic characters.
