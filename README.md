@@ -1,47 +1,69 @@
-# Secret Code Generator
 
-A simple Python-based command-line tool to **encode** and **decode** secret messages using the Caesar cipher technique. Built to run in a Jupyter Notebook or terminal, this interactive tool allows users to safely hide or reveal messages by shifting alphabetic characters.
+---
 
-## Features
-- Encode messages with a customizable Caesar cipher shift
-- Decode messages using the same shift value
-- Handles both uppercase and lowercase letters
-- Ignores non-alphabet characters (spaces, punctuation, etc.)
-- Interactive menu system for easy use
+# 🧩 CipherCrafter – Secret Code Generator
 
-## How It Works
-The Caesar cipher is a classic encryption technique where each letter in a message is shifted by a certain number of places in the alphabet. This tool applies the shift during encoding and reverses it during decoding.
+> **Crafting unique secret codes with speed, simplicity, and security.**
 
-## Usage
+---
 
-1. Clone the repository or open the notebook.
-2. Run the code in a Python environment or terminal.
-3. Follow the on-screen menu:
-   - Choose to encode, decode, or exit.
-   - Input your message and shift value.
-   - View your encrypted or decrypted result.
+## 📚 Project Overview  
+**CipherCrafter** is a lightweight and efficient **Secret Code Generator** built to create secure and customizable codes effortlessly.  
+Whether you are building a **security application**, designing **puzzle games**, or experimenting with **encryption techniques**, **CipherCrafter** provides a simple yet powerful toolset to generate secret codes with ease. 🚀
 
-## Example
+---
 
+## 🚀 Features  
+- Generate unique secret codes instantly ⏳  
+- Supports multiple encryption methods 🔒  
+- Lightweight and beginner-friendly 💻  
+- Easy to integrate into games, applications, and projects 🎮📚  
+- Fast, efficient, and reliable performance ⚡
+
+---
+
+## 🛠️ Tech Stack  
+- **Programming Language:** Python  
+- **Encryption Algorithms:** Custom-built lightweight methods  
+- **Utilities:** Randomization, String Manipulation, Encoding Techniques  
+
+---
+
+## 📈 Project Impact  
+- Simplified the process of generating secure, random codes.  
+- Enabled quick integration into a variety of applications requiring secret code functionality.  
+- Helped developers add layers of security and fun to their projects with minimal setup.
+
+---
+
+## 📂 How to Run CipherCrafter
+1. **Clone the Repository**  
+```bash
+git clone https://github.com/your-username/CipherCrafter.git
+cd CipherCrafter
 ```
-Welcome to the Secret Code Generator!
 
-Please choose an option:
-1. Encode a message
-2. Decode a message
-3. Exit
-
-Enter your choice (1, 2, or 3): 1
-Enter the message to encode: hello world
-Enter the shift number: 3
-Encoded Message: khoor zruog
+2. **Set up a Virtual Environment**  
+```bash
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
 ```
 
-## Requirements
-- Python 3.6 or above
-- Jupyter Notebook (optional)
+3. **Install Requirements**  
+```bash
+pip install -r requirements.txt
+```
 
-## License
-This project is licensed under the MIT License.
+4. **Run the Application**  
+```bash
+python ciphercrafter.py
+```
+
+---
+
+## 🙋‍♂️ About Me  
+I’m **Sneha Gupta**, a passionate Python Developer and tech enthusiast 🚀  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/sneha-gupta-a78839261/) to collaborate or discuss more exciting projects!
 
 ---
