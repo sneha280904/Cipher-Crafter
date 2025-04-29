@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 4. **Run the Application**  
 ```bash
-python ciphercrafter.py
+python app.py
 ```
 
 ---
