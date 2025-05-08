@@ -1,7 +1,0 @@
-*.zip
-*.pdf
-
-__pycache__/
-
-.env
-.venv

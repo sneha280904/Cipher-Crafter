@@ -3,6 +3,8 @@
 
 # 🧩 CipherCrafter – Secret Code Generator
 
+Note: The source code for this project has been made private intentionally.
+
 > **Crafting unique secret codes with speed, simplicity, and security.**
 
 ---
